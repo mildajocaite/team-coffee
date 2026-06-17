@@ -1,3 +1,5 @@
+import {Game} from './games';
+
 export const uno: Game = {
     id: "uno",
     logo: "/games/uno.png",

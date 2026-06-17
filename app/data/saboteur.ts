@@ -1,3 +1,5 @@
+import {Game} from './games';
+
 export const saboteur: Game = {
     id: "saboteur",
     logo: "/games/saboteur.png",

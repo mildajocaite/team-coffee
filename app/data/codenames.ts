@@ -1,3 +1,5 @@
+import {Game} from './games';
+
 export const codenames: Game = {
     id: "codenames",
     logo: "/games/codenames.png",

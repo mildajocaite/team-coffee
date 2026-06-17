@@ -1,3 +1,5 @@
+import {Game} from './games';
+
 export const explodingKittens: Game = {
     id: "exploding-kitten",
     logo: "/games/exploding-kittens.svg",

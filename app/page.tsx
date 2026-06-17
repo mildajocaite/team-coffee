@@ -2,9 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { GameFilterControls } from "./components/game-filter-controls";
-import { GameCard } from "./components/game-card";
 import { GameList } from "./components/game-list";
-import { RandomGameModal } from "./components/random-game-modal";
+import { RandomGameModal } from "./components/random-game-modal/random-game-modal";
 
 import type { Game } from "./data/games";
 import { games } from "./data/games";

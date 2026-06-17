@@ -1,3 +1,5 @@
+import {Game} from './games';
+
 export const garticPhone: Game = {
     id: "gartic-phone",
     logo: "/games/telephone.png",
