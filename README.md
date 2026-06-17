@@ -1,4 +1,4 @@
-# Game Night Picker
+# Team coffee
 
 Small Next.js app that:
 
