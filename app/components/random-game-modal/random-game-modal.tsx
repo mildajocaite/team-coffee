@@ -32,7 +32,7 @@ export const RandomGameModal = ({ game, isOpen, onClose }: RandomGameModalProps)
         </p>
 
         <div className="mb-4 flex items-center gap-3">
-          <Image src={game.logo} alt={`${game.name} logo`} width={56} height={56} />
+          <Image src={`/team-coffee/${game.logo}`} alt={`${game.name} logo`} width={56} height={56} />
           <div>
             <h2 className="text-2xl font-bold">{game.name}</h2>
             <p className="text-sm text-zinc-600 dark:text-zinc-300">
