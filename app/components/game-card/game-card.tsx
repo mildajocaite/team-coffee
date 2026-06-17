@@ -11,7 +11,7 @@ export const GameCard = ({ game }: GameCardProps) => {
   return (
     <article className="flex h-full flex-col rounded-2xl border border-black/10 bg-white p-5 shadow-sm dark:border-white/20 dark:bg-zinc-900">
       <div className="mb-4 flex items-center gap-3">
-        <Image src={game.logo} alt={`${game.name} logo`} width={52} height={52} />
+        <Image src={`/team-coffee/${game.logo}`} alt={`${game.name} logo`} width={52} height={52} />
         <div>
           <h2 className="text-lg font-semibold">{game.name}</h2>
           <p className="text-sm text-zinc-600 dark:text-zinc-300">
